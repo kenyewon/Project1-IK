@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>일광전구</title>
+  <!--favicon-->
+  <link rel="icon" type="image/png" sizes="48x48" href="img/img_nav_logo.png">
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--js-->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header class="visible">
+      <div class="inner">
+        <h1><a href="#"><img src="img/Ik-logo.png" alt="일광전구로고"></a></h1>
+
+        <!--데스크탑 gnb 메뉴-->
+        <nav class="gnb-wrap">
+          <ul class="main-menu">
+            <li>
+              <a href="#">ABOUT US</a>
+              <ul class="sub-menu">
+                <li><a href="#">Brandstory</a></li>
+                <li><a href="#">History</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">ARCHIVE</a>
+            </li>
+            <li>
+              <a href="#">SHOP</a>
+              <ul class="sub-menu">
+                <li><a href="#">All</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Sale</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">SERVICE</a>
+              <ul class="sub-menu">
+                <li><a href="#">Guide</a></li>
+                <li><a href="#">Q&amp;A</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">CONTACT</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <div class="dim"></div><!--.dim-->
+
+        <!--모바일 gnb 메뉴-->
+        <div class="mgnb-wrap">
+          <h2><a href="#"><img src="img/IK_Logo.svg" alt="일광전구로고"></a></h2>
+          <ul class="mgnb">
+            <li>
+              <a href="#">ABOUT US</a>
+              <ul class="depth2">
+                <li><a href="#">Brandstory</a></li>
+                <li><a href="#">History</a></li>
+              </ul><!--.depth2-->
+            </li>
+
+            <li>
+              <a href="#">ARCHIVE</a>
+            </li>
+
+            <li>
+              <a href="#">SHOP</a>
+              <ul class="depth2">
+                <li><a href="#">All</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Sale</a></li>
+              </ul><!--.depth2-->
+            </li>
+
+            <li>
+              <a href="#">SERVICE</a>
+              <ul class="depth2">
+                <li><a href="#">Guide</a></li>
+                <li><a href="#">Q&A</a></li>
+              </ul><!--.depth2-->
+            </li>
+
+            <li>
+              <a href="#">CONTACT</a>
+            </li>
+          </ul><!--.mgnb-->
+
+          <div class="mgnb-close">모바일 메뉴 닫기</div><!--.mgnb-close-->
+        </div><!--.mgnb-wrap-->
+
+        </div><!--.inner-->
+      
+        <div class="util">
+          <ul>
+            <li class="btn-sc"><a href="#">검색</a></li>
+            <li class="btn-ham"><a href="#">메뉴열기</a></li>
+          </ul>
+        </div><!--.util-->
+     </nav>
+    </header>
+
+    <div class="search">
+      <form>
+        <fieldset>
+          <legend>SEARCH</legend>
+          <input type="text" placeholder="시리즈명, 제품명을 입력하세요.">
+          <button type="button">검색</button>
+        </fieldset>
+      </form>
+      <div class="search-close">검색</div><!--.search-close-->
+    </div><!--.search-->
+
+
+    <!--메인비주얼  영역-->
+    <div id="main">
+      <section id="main-visual">
+        <div class="swiper mv">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#"><img src="img/main-visual01.jpg" alt="스노우맨패밀리"></a>
+              <div class="mv-txt">
+                <h2>마침내,<br>스노우맨 패밀리</h2>
+                <p>All About SNOWMAN</p>
+              </div><!--.mv-txt-->
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="img/main-visual04.jpg" alt="스노우맨"></a>
+              <div class="mv-txt">
+                <h2>완벽한 일상을 위한<br>두번째 스노우맨</h2>
+                <p>SNOWMAN22 V2</p>
+              </div><!--.mv-txt-->
+            </li>
+            <li class="swiper-slide">
+              <a href="#"><img src="img/main-visual03.jpg" alt="플라밍고테이블"></a>
+              <div class="mv-txt">
+                <h2>패브릭 조명의 <br>새로운 변화</h2>
+                <p>FLAMINGO26 Table</p>
+              </div><!--.mv-txt-->
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+        </div><!--.swiper mv-->
+      </section><!--#main-visual-->
+
+      <section id="collection">
+        <h2 class="section-tit">IK Collection</h2>
+        <div class="swiper product-list">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <a href="#">
+              <img src="img/Product_1.png" alt="스노우맨 화이트">
+              <dl>
+                <dt>SNOWMAN15 Portable<br>White</dt>
+                <dd>다양한 쉐이드는 조명을 켜지 않은 순간에도 공간에 아름다움을 선사합니다.</dd>
+              </dl>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+              <img src="img/Product_2.png" alt="스노우맨 버터">
+              <dl>
+                <dt>SNOWMAN15 Portable<br>Butter</dt>
+                <dd>다양한 쉐이드는 조명을 켜지 않은 순간에도 공간에 아름다움을 선사합니다.</dd>
+              </dl>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+              <img src="img/Product_3.png" alt="스노우맨 피치">
+              <dl>
+                <dt>SNOWMAN15 Portable<br>Peach</dt>
+                <dd>다양한 쉐이드는 조명을 켜지 않은 순간에도 공간에 아름다움을 선사합니다.</dd>
+              </dl>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+              <img src="img/Product_4.png" alt="플라밍고 버니즈 딥그린">
+              <dl>
+                <dt>FLAMINGO26 Table<br>KBP Deep Green</dt>
+                <dd>특별함을 더한 버니즈 패턴의 조합으로 새로운 플라밍고를 만나보세요.</dd>
+              </dl>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+              <img src="img/Product_5.png" alt="플라밍고 버니즈 버터">
+              <dl>
+                <dt>FLAMINGO26 Table<br>KBP Butter</dt>
+                <dd>특별함을 더한 버니즈 패턴의 조합으로 새로운 플라밍고를 만나보세요.</dd>
+              </dl>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a href="#">
+              <img src="img/Product_6.png" alt="플라밍고 버니즈 라이트그레이">
+              <dl>
+                <dt>FLAMINGO26 Table<br>KBP Light Gray</dt>
+                <dd>특별함을 더한 버니즈 패턴의 조합으로 새로운 플라밍고를 만나보세요.</dd>
+              </dl>
+              </a>
+            </li>
+
+          </ul>
+          
+        </div><!--.swiper product-list-->
+
+        <span class="go-shop"><a href="#">Shop ></a></span>
+      </section><!--#collection-->
+
+      <section id="slogan">
+          <h1 class="text"></h1>
+
+          <!--<h1 class="back-txt">We make light.<br> by IIKwang Lightings Presents.</h1>-->
+
+      </section><!--#slogan-->
+
+      <section id="archive">
+        <h2 class="section-tit">Archive</h2>
+        <div class="swiper archive">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img-box">
+                <a href="#"><img src="img/Archive_1.jpg" alt="일광전구 삼성전자 프로젝트"></a>
+              </div><!--.img-box-->
+              <div class="txt-box">
+                <a href="#">
+                  <h2>일광전구 X 삼성전자</h2>
+                  <p>삼성전자 VD Lifestyle Pop-up Store<br>
+                    ‘새로보다’</p>
+                </a>
+              </div><!--.txt-box-->
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <a href="#"><img src="img/Archive_2.jpg" alt="일광전구 아우디 프로젝트"></a>
+              </div><!--.img-box-->
+              <div class="txt-box">
+                <a href="#">
+                  <h2>일광전구 X AUDI</h2>
+                  <p>AUDI URBAN CULTURE SPACE</p>
+                </a>
+              </div><!--.txt-box-->
+            </div>
+            <div class="swiper-slide">
+              <div class="img-box">
+                <a href="#"><img src="img/Archive_3.jpg" alt="일광전구 스튜디오톰보이 프로젝트"></a>
+              </div><!--.img-box-->
+              <div class="txt-box">
+                <a href="#">
+                  <h2>일광전구 X STUDIO TOMBOY</h2>
+                  <p>스튜디오 톰보이 크리스마스 전구 디스플레이</p>
+                </a>
+              </div><!--.txt-box-->
+            </div>
+            <div class="swiper-slide">
+            <div class="img-box">
+              <a href="#"><img src="img/Archive_4.jpg" alt="동대문ddp 프로젝트"></a>
+            </div><!--.img-box-->
+            <div class="txt-box">
+              <a href="#">
+                <h2>2nd Exhibition 'WE MAKE LIGHT.'</h2>
+                <p>동대문 디자인플라자 DDP<br>
+                  일광전구 팝업스토어</p>
+              </a>
+            </div><!--.txt-box-->
+          </div>
+        </div>
+        <div class="swiper-scrollbar"></div>
+        </div>
+        <a href="#" class="more">View more ></a>
+      </section><!--#archive-->
+
+      <section id="guide">
+        <div class="left">
+          <dl>
+            <dt>전구 고르는 방법</dt>
+            <dd><a href="#">이미지</a></dd>
+          </dl>
+          <a href="#" class="more">View more ></a>
+        </div>
+
+        <div class="right">
+          <dl>
+            <dt>공간별 조명 찾기</dt>
+            <dd><a href="#">이미지</a></dd>
+          </dl>
+          <a href="#" class="more">View more ></a>
+        </div>
+      </section><!--#guide-->
+
+      <section id="name">
+        <h2>일광전구를 빛낸 이들</h2>
+        <div class="left-name">
+          <p>Lee Yeon Hui&emsp;Lee Kang Rok&emsp;Lee Jeong Hui&emsp;Kwon Sun Man&emsp;Kim Yeong Ha&emsp;Kim Hong Do&emsp;Kim Ho Jin&emsp;Lee Yeon Hui&emsp;Lee Kang Rok&emsp;Lee Jeong Hui&emsp;Kwon Sun Man&emsp;Kim Yeong Ha&emsp;Kim Hong Do&emsp;Kim Ho Jin</p>
+        </div>
+        <div class="right-name">
+          <p>Kang Gyeong Sun&emsp;Kang Gi Hwa&emsp;Jeong Myeong Hun&emsp;Kwon Sun Man&emsp;Hong Soo Young&emsp;Hong Gi Wan&emsp;Hong Gi Don&emsp;Bae Yun Ju&emsp;Kang Gyeong Sun&emsp;Kang Gi Hwa&emsp;Jeong Myeong Hun&emsp;Kwon Sun Man&emsp;Hong Soo Young&emsp;Hong Gi Wan&emsp;Hong Gi Don&emsp;Bae Yun Ju</p>
+        </div>
+        <h3>Product of korea.</h3>
+      </section><!--#name-->
+
+      <footer>
+          <div class="inner">
+            <h1><a href="#"><img src="img/IK_Logo.svg" alt="일광전구로고"></a></h1>
+            <div class="f-left">
+            <dl>
+              <dt>Manufacturer</dt>
+              <dd>(주)일광 | 대표 김홍도 | 사업자등록번호 504-81-05919</dd>
+              <dd>대구광역시 달서구 성서공단 북로3길 7</dd>
+            </dl>
+          </div>
+            
+          <div class="f-right">
+              <a href="#">이용약관</a>
+              <a href="#">개인정보취급방침</a>
+            <span>&copy; 2024 Ilkwang Co. Ltd All rights reserved.</span>
+          </div>
+
+            <div id="contact">
+              <div class="contact-wrap">
+                <div class="email">
+                  <input type="text" placeholder="Email">
+                 </div>
+
+                 <div class="sumit">
+                  <button type="button">Contact us</button>
+                 </div>
+              </div>
+
+            </div>
+          </div><!--.inner-->
+      </footer>
+
+      
+
+    </div><!--#main-->
+  </div><!--#wrap-->
+</body>
+</html>
